@@ -19,6 +19,7 @@ use Symfony\Component\Console\Command\Command;
 class DriverLockCommand extends Command
 {
     protected $ttl;
+    private $container;
 
     /**
      * return object of Queue
